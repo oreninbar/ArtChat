@@ -1,0 +1,11 @@
+@import '../abstract/colors';
+
+.messages-container{
+    display: grid;
+    grid-template-rows: repeat(10, auto);
+    grid-template-columns: repeat(1, auto);
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    background-color: #e7e7e7;
+}

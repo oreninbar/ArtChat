@@ -1,0 +1,44 @@
+@import "../abstract/colors";
+
+.message-wrapper {
+  padding: 1rem 0rem;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  // margin-block-start: 1rem;
+  & .message-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    & .chat-img {
+      height: 8rem;
+      width: auto;
+      margin: 1rem;
+      margin-inline-start: 2rem;
+    }
+    & .text-message-wrapper {
+      padding: 1rem;
+      height: inherit;
+      width: auto;
+      margin-inline-start: 1rem;
+      background-color: $artPurpleMedium;
+      border-radius: 1.5rem;
+      & .chat-text-message {
+          padding: .5rem;
+        font-size: 2.2rem;
+        color: $lightGray;
+      }
+    }
+  }
+  & .message-time {
+    text-align: start;
+    font-size: 1.3rem;
+    margin: -1.5rem 2rem;
+  }
+}
+
+.message-wrapper.right{
+  margin-inline-end: 5rem;
+  align-items: flex-end;
+}

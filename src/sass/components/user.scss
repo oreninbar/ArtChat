@@ -1,0 +1,25 @@
+.user-container {
+  width: 90%;
+  height: 6vh;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0.1rem 0.2rem 0.3rem 0.2rem rgba(124, 124, 124, 0.459);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background-color: whitesmoke;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.7rem;
+  & .name{
+    width: 50%;
+    text-align: start;
+  }
+  & .img-wrapper{
+    .user-img{
+      height:4rem;
+    }
+  }
+  
+}

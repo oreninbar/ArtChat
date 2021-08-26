@@ -1,0 +1,13 @@
+.messages-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (auto)[10];
+      grid-template-rows: repeat(10, auto);
+  -ms-grid-columns: (auto)[1];
+      grid-template-columns: repeat(1, auto);
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  background-color: #e7e7e7;
+}
+/*# sourceMappingURL=messages.css.map */

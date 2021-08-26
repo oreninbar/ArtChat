@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,mBAAmB,CAAA;EACf,OAAO,EAAE,IAAI;EACb,kBAAkB,EAAE,gBAAgB;EACpC,qBAAqB,EAAE,eAAe;EACtC,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,IAAI;EACb,gBAAgB,EAAE,OAAO;CAC5B",
+    "sources": [
+        "../sass/components/messages.scss",
+        "../sass/abstract/_colors.scss"
+    ],
+    "names": [],
+    "file": "messages.css"
+}

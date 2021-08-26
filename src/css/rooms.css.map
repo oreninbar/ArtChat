@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/components/rooms.scss"
+    ],
+    "names": [],
+    "file": "rooms.css"
+}

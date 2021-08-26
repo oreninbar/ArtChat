@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,kBAAkB,CAAC;EACjB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,MAAM,EAAE,OAAO;EACf,KAAK,EAAE,OAAO;CAmBf;;AAvBD,AAME,kBANgB,CAMd,cAAc,CAAC;EACf,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,GAAG;CACX;;AATH,AAWE,kBAXgB,CAWd,qBAAqB,CAAC;EACtB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,GAAG;EACV,gBAAgB,EAAE,uBAAuB;EACzC,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,KAAK;EACtB,mBAAmB,EAAE,MAAM;CAE5B",
+    "sources": [
+        "../sass/components/support.scss",
+        "../sass/abstract/_mixins.scss",
+        "../sass/abstract/_colors.scss"
+    ],
+    "names": [],
+    "file": "support.css"
+}

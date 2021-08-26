@@ -1,0 +1,40 @@
+@import "../abstract/mixins";
+@use '../abstract/colors';
+
+.customer-container {
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/web-wrapper.PNG);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  & .close-icon {
+    position: absolute;
+    height: 8rem;
+    top:-2rem;
+    right:4rem;
+    z-index: 1;
+  }
+  & .chat-icon.false {
+    position: absolute;
+    bottom: 10rem;
+    right: 10rem;
+    height: 12rem;
+  }
+  & .chat-icon.true {
+    display: none;
+  }
+  & .customer-chat-wrapper {
+    position: absolute;
+    bottom: 1rem;
+    right: 3rem;
+    width: 38%;
+    height: 85%;
+  }
+  & .customer-chat-wrapper.false {
+    display: none;
+  }
+  & .customer-chat-wrapper.true {
+    display: flex;
+  }
+}

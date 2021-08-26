@@ -1,0 +1,27 @@
+@import "../abstract/mixins";
+@import '../abstract/colors';
+
+.support-container {
+  display: flex;
+  flex-direction: row;
+  height: inherit;
+  width: inherit;
+
+  & .rooms-wrapper {
+    height: 100%;
+    width: 30%;
+  }
+
+  & .support-chat-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 70%;
+    background-image: url('../img/back1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+}

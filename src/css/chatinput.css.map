@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/components/chatinput.scss"
+    ],
+    "names": [],
+    "file": "chatinput.css"
+}
